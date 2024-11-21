@@ -9,7 +9,7 @@ Retrieve a list of all schools sorted by proximity to a user-specified location 
 Technologies Used
 Backend: Node.js, Express.js
 Database: MySQL
-Hosting: [https://school-management-api-lime.vercel.app/?vercelToolbarCode=-0_8IllARUpQA5v]
+Hosting: https://school-management-api-lime.vercel.app/?vercelToolbarCode=-0_8IllARUpQA5v
 Testing: Postman
 API Endpoints
 1. Add School API
@@ -94,11 +94,10 @@ longitude	FLOAT	Longitude of the school's location.
 Setup Instructions
 1. Clone the Repository
 bash
-git clone <repository-url>
+git clone https://github.com/darshuuuxxxzz009/school-management-api.git
 cd <repository-folder>
 
 2. Install Dependencies :
-bash
 npm install
 4. Set Up Environment Variables
 Create a .env file in the root folder and add the following:
@@ -130,12 +129,11 @@ The server should start at http://localhost:3000.
 Postman Collection
 Import the Postman collection to test the APIs.
 
-Collection Link: [Postman Shared Link]
-Exported JSON File: [Attach the file]
+Collection Link: 
+Exported JSON File: 
 Live API
-The API is hosted and accessible at:
-
-Base URL: [Your Hosted URL]
+The API is hosted and accessible at: 
+Base URL: https://school-management-api-lime.vercel.app/?vercelToolbarCode=-0_8IllARUpQA5v
 Testing Instructions
 Use Postman or any REST client to test the APIs.
 For /addSchool, ensure the payload is valid.
