@@ -95,9 +95,10 @@ Setup Instructions
 1. Clone the Repository
 bash
 git clone https://github.com/darshuuuxxxzz009/school-management-api.git
+
 cd <repository-folder>
 
-2. Install Dependencies :
+3. Install Dependencies :
 npm install
 4. Set Up Environment Variables
 Create a .env file in the root folder and add the following:
